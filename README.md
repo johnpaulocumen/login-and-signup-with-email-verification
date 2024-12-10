@@ -79,6 +79,3 @@ This project is a PHP-based login and signup system that includes email verifica
 - **Composer**: For managing dependencies.
 - **Bootstrap**: For styling (if applicable).
 
-## License
-
-This project is open-source and available under the MIT License.
