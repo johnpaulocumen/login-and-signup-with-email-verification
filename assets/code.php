@@ -16,13 +16,13 @@ function sendemail_verify($name,$email,$verify_token)
     $mail->SMTPAuth   = true;
 
     $mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
-    $mail->Username   = 'nmscqams@gmail.com';                     //SMTP username
-    $mail->Password   = 'yspn zqij wyfb nswc';                               //SMTP password
+    $mail->Username   = 'xxxxxxx@gmail.com';                     //SMTP username
+    $mail->Password   = 'xxxx xxxx xxxx xxxx';                               //SMTP password
 
     $mail->SMTPSecure = 'tls';
     $mail->Port       = 587;
 
-    $mail->setFrom('nmscqams@gmail.com', $name);
+    $mail->setFrom('xxxxxxx@gmail.com', $name);
     $mail->addAddress($email);
 
     $mail->isHTML(true);
